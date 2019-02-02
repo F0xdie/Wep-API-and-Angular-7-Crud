@@ -19,7 +19,7 @@ namespace WebAPI.Models
         public string CardNumber { get; set; }
         [Required]
         [Column(TypeName = "varchar(5)")]
-        public string ExpirationDate { get; set; } //Format is like MM/DD
+        public string ExpirationDate { get; set; } //Format is MM/DD
         [Required]
         [Column(TypeName = "nvarchar(3)")]
         public string CVV { get; set; }
